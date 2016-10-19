@@ -39,4 +39,4 @@ BOOTSTRAP_NAVBAR_INVERSE=True
 OUTPUT_PATH='../'
 PATH='content'
 DISPLAY_PAGES_ON_MENU=False 
-MENUITEMS=[("Vita","vita.html")]
+MENUITEMS=[("Vita","../vita.html")]
