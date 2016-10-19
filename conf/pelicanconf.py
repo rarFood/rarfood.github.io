@@ -20,7 +20,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('My resume', 'pdfs/DanielSantiago-Resume.pdf'),
+LINKS = (('My Resumé', 'pdfs/DanielSantiago-Resume.pdf'),
          ('ATACKPR', 'http://atackpr.ccom.uprrp.edu/'),
          ('CCOM', 'http://ccom.uprrp.edu'),)
 
@@ -36,6 +36,6 @@ THEME='../../pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_NAVBAR_INVERSE=True
 OUTPUT_PATH='../'
 PATH='content'
-DISPLAY_PAGES_ON_MENU=False 
+DISPLAY_PAGES_ON_MENU=False
 MENUITEMS=[("Vita","vita.html")]
 STATIC_PATHS = ['images','pdfs']
