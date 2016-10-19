@@ -20,9 +20,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),)
+LINKS = (('My resume', 'pdfs/DanielSantiago-Resume.pdf'),
+         ('ATACKPR', 'http://atackpr.ccom.uprrp.edu/'),
+         ('CCOM', 'http://ccom.uprrp.edu'),)
 
 # Social widget
 SOCIAL = (('LinkedIn', 'https://pr.linkedin.com/in/daniel-santiago-aaa13057'),)
@@ -38,3 +38,4 @@ OUTPUT_PATH='../'
 PATH='content'
 DISPLAY_PAGES_ON_MENU=False 
 MENUITEMS=[("Vita","vita.html")]
+STATIC_PATHS = ['images','pdfs']
