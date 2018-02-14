@@ -8,7 +8,7 @@ Slug: vita
 <p><a href="pdfs/DanielSantiago-Resume.pdf">My Resumé</a></p>
 ## Degrees
 
-- BS (Computer Science) expected by december 2016, University of Puerto Rico, Río Piedras Campus
+- BS (Computer Science) Graduated on December 2016, University of Puerto Rico, Río Piedras Campus
 
 ## Experience
 
