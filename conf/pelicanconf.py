@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+#Daniel Santiago
 from __future__ import unicode_literals
 
 AUTHOR = u'Daniel Santiago'
