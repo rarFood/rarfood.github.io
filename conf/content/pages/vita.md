@@ -12,8 +12,11 @@ Slug: vita
 
 ## Experience
 
+Penetration Tester
+: GM Security Technologies, San Juan, Puerto Rico, January 2017 until Present.
+
 Systems Administrator
-: Department of Computer Science, Río Piedras Campus, University of Puerto Rico, January 2016 until Present
+: Department of Computer Science, Río Piedras Campus, University of Puerto Rico, January 2016 until December 2016
 
 Instructor
 : ATACKPR HS Summer Camp, Río Piedras Campus, University of Puerto Rico, July 2016. Exercise developer for the course material and security demonstrations (pentesting) developer and demonstrator.
