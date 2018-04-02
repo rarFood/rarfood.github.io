@@ -8,7 +8,7 @@ SITENAME = u'Daniel Santiago-Rodríguez'
 SITEURL = ''
 
 PATH = 'content'
-
+DEFAULT_CATEGORY = 'Blog'
 TIMEZONE = 'America/Puerto_Rico'
 
 DEFAULT_LANG = u'en'
@@ -44,7 +44,6 @@ BOOTSTRAP_NAVBAR_INVERSE=True
 CC_LICENSE = "CC-BY-SA"
 GITHUB_USER= "danielsantiagz"
 OUTPUT_PATH='../'
-PATH='content'
 DISPLAY_PAGES_ON_MENU=False
-MENUITEMS=[("Vita","vita.html")]
+MENUITEMS=[("Vita","/vita.html")]
 STATIC_PATHS = ['images','pdfs']
