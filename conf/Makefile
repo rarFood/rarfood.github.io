@@ -2,9 +2,10 @@ PY?=python
 PELICAN?=pelican
 PELICANOPTS=
 
+TESTDIR=$(CURDIR)/test
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/output
+OUTPUTDIR=$(BASEDIR)/..
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
@@ -62,7 +63,7 @@ help:
 	@echo '                                                                          '
 
 html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(PELICAN) $(INPUTDIR) -o $(TESTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
@@ -129,7 +130,7 @@ PAGESDIR=$(INPUTDIR)/pages
 DATE := $(shell date +'%Y-%m-%d %H:%M:%S')
 SLUG := $(shell echo '${NAME}' | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)
 EXT ?= md
-EDITOR="echo Edit "
+EDITOR="atom"
 
 newpost:
 ifdef NAME
@@ -151,6 +152,7 @@ ifdef NAME
 	echo ""              >> $(PAGESDIR)/$(SLUG).$(EXT)
 	echo ""              >> $(PAGESDIR)/$(SLUG).$(EXT)
 	${EDITOR} ${PAGESDIR}/${SLUG}.$(EXT)
+
 else
 	@echo 'Variable NAME is not defined.'
 	@echo 'Do make newpage NAME='"'"'Page Name'"'"
