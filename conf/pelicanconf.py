@@ -47,3 +47,4 @@ OUTPUT_PATH='../'
 DISPLAY_PAGES_ON_MENU=False
 MENUITEMS=[("Vita","/vita.html")]
 STATIC_PATHS = ['images','pdfs']
+GOOGLE_ANALYTICS="UA-117060792-1"
