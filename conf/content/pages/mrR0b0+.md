@@ -1,4 +1,7 @@
-# Hacking Mr Robot styles
+Title: Hacking Mr Robot Style
+save_as:mrR0b0+.html
+Slug: writeup
+
 ## By: Daniel Santiago
   > A simple writeup of the 'mr robot 1' challenge from vulnhub.com
   challenge: https://www.vulnhub.com/entry/mr-robot-1,151/
