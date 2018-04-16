@@ -6,7 +6,7 @@ Date: 2018-04-16 -->
 ### By: Daniel Santiago
   > A simple writeup of the 'mr robot 1' challenge from vulnhub.com
   challenge: https://www.vulnhub.com/entry/mr-robot-1,151/
-  Tools: https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-download/
+  Tools: https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-hyperv-image-download/
 
 
   1. First we need to 'probe' the machine to see what's going on:
