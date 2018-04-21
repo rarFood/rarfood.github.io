@@ -21,3 +21,6 @@ Slug: mr-robot-lab-setup
     * pictures
 
 ## Finishing Touches:
+  1. [Go to the tutorial](http://bacalaitopentester.com/pdfs/mrR0b0+.pdf) and try to do the challenges. Good luck !
+
+  > With love Daniel San...
