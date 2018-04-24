@@ -11,7 +11,9 @@ Slug: mr-robot-lab-setup
 
 ## VirtualBox Setup:
   1. After downloading [VirtualBox](https://www.virtualbox.com/wiki/Downloads) you should create a new natnetwork so that the vms that we are going to use can comunicate with each other.
-   * Picture
+    ![Natnetwork setup 1](../images/virtualBoxPreferences.png)
+    ![Natnetwork setup 2](../images/virtualBoxNetworks.png)
+    ![Natnetwork setup 3](../images/virtualboxCreateNatnetwork.png)
 
 ## VM Setup:
   1. After downloading the vms just double click on them and [VirtualBox](https://www.virtualbox.com/wiki/Downloads) should open asking if you want to import the vms.
