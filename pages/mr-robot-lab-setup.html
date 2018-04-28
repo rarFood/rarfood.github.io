@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Bacalaito pentester gives a workshop - Daniel Santiago-Rodríguez</title>
+    <title>Mr Robot Lab Setup - Daniel Santiago-Rodríguez</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,19 +9,16 @@
 
 
 
-<link rel="canonical" href="/bacalaito-pentester-gives-a-workshop.html">
+<link rel="canonical" href="/pages/mr-robot-lab-setup.html">
 
         <meta name="author" content="Daniel Santiago" />
-        <meta name="description" content="So I was invited by my friend to give a talk at the university from which I graduated. I hate public speaking but I love cybersecurity so much that I do to just to teach the things I&#39;ve learned along the way. I like to consider my self as an …" />
+        <meta name="description" content="Shopping List: Note: Your Host Machine needs to be able to run virtual machines VirtualBox VirtualBox Extensions pack Mr-Robot:1 Virtual Machine Kali Linux Virtual Machine VirtualBox Setup: After downloading VirtualBox and installing the extensions pack you should create a new natnetwork so that the vms that we are going …" />
 
-        <meta property="og:site_name" content="Daniel Santiago-Rodríguez" />
-        <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Bacalaito pentester gives a workshop"/>
-        <meta property="og:url" content="/bacalaito-pentester-gives-a-workshop.html"/>
-        <meta property="og:description" content="So I was invited by my friend to give a talk at the university from which I graduated. I hate public speaking but I love cybersecurity so much that I do to just to teach the things I&#39;ve learned along the way. I like to consider my self as an …"/>
-        <meta property="article:published_time" content="2018-04-16" />
-            <meta property="article:section" content="Blog" />
-            <meta property="article:author" content="Daniel Santiago" />
+    <meta property="og:site_name" content="Daniel Santiago-Rodríguez" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Mr Robot Lab Setup"/>
+    <meta property="og:url" content="/pages/mr-robot-lab-setup.html"/>
+    <meta property="og:description" content="Shopping List: Note: Your Host Machine needs to be able to run virtual machines VirtualBox VirtualBox Extensions pack Mr-Robot:1 Virtual Machine Kali Linux Virtual Machine VirtualBox Setup: After downloading VirtualBox and installing the extensions pack you should create a new natnetwork so that the vms that we are going …" />
 
 
 
@@ -37,8 +34,6 @@
 
 
 
-        <link href="/feeds/blog.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Daniel Santiago-Rodríguez Blog ATOM Feed"/>
 
 </head>
 <body>
@@ -58,7 +53,7 @@ Daniel Santiago-Rodríguez            </a>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
                     <li><a href="/vita.html">Vita</a></li>
-                        <li class="active">
+                        <li >
                             <a href="/category/blog.html">Blog</a>
                         </li>
             </ul>
@@ -73,39 +68,54 @@ Daniel Santiago-Rodríguez            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <section id="content">
-        <article>
-            <header class="page-header">
-                <h1>
-                    <a href="/bacalaito-pentester-gives-a-workshop.html"
-                       rel="bookmark"
-                       title="Permalink to Bacalaito pentester gives a workshop">
-                        Bacalaito pentester gives a workshop
-                    </a>
-                </h1>
-            </header>
-            <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-<footer class="post-info">
-    <span class="label label-default">Date</span>
-    <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2018-04-16T00:00:00-04:00"> Mon 16 April 2018</time>
-    </span>
-
-
-
-
-
-    
-</footer><!-- /.post-info -->                    </div>
-                </div>
-                <p>So I was invited by my friend to give a talk at the university from which I graduated. I hate public speaking but I love cybersecurity so much that I do to just to teach the things I've learned along the way. I like to consider my self as an active member of the cybersecurity club for the Department of Computer Science of the University of Puerto Rico, Río Piedras Campus even though I don't attend the meetings. I gave a few workshops as a student. I decided to recycle a really cool workshop that I gave when I was a student to motivate new members with cybersecurity since it's really flashy with simple but effective techniques that are easy to learn. I use the <a href="https://www.vulnhub.com/entry/mr-robot-1,151/">"Mr-Robot: 1"</a> virtual machine from vulnhub.com. I'm a little nervous since it's been a long time since I've given a talk and because I think most of the people from the club won't know me. I decided to post the writeup for the exercise but since the python markdown extension is giving me a headache (it doesn't support nested code blocks) I exported the markdown to a pdf available <a href="/pdfs/mrR0b0+.pdf">here</a>. I should write a post on how to setup the workshop but the horrors that I've endured working on this workshop have given me nightmares and I don't want to think about it for a while (note to self: don't wait 2 days before the workshop to prepare, specially if you haven't updated the laptop you're going to use for about a year because everything will go wrong  **wait for a future post** )</p>
-            </div>
-            <!-- /.entry-content -->
-        </article>
+    <section id="content" class="body">
+        <h1 class="entry-title">Mr Robot Lab Setup</h1>
+        
+        <div class="entry-content">
+            <h2>Shopping List:</h2>
+<blockquote>
+<p>Note: Your Host Machine needs to be able to run virtual machines</p>
+</blockquote>
+<ol>
+<li><a href="https://www.virtualbox.com/wiki/Downloads">VirtualBox</a></li>
+<li><a href="https://download.virtualbox.org/virtualbox/5.2.10/Oracle_VM_VirtualBox_Extension_Pack-5.2.10.vbox-extpack">VirtualBox Extensions pack</a></li>
+<li><a href="https://www.vulnhub.com/entry/mr-robot-1,151/">Mr-Robot:1 Virtual Machine</a></li>
+<li><a href="https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-hyperv-image-download/">Kali Linux Virtual Machine</a></li>
+</ol>
+<h2>VirtualBox Setup:</h2>
+<ol>
+<li>
+<p>After downloading <a href="https://www.virtualbox.com/wiki/Downloads">VirtualBox</a> and installing the <a href="https://download.virtualbox.org/virtualbox/5.2.10/Oracle_VM_VirtualBox_Extension_Pack-5.2.10.vbox-extpack">extensions pack</a> you should create a new natnetwork so that the vms that we are going to use can comunicate with each other.</p>
+<p><img alt="Natnetwork setup 1" src="../images/mrRobot-images/virtualBoxPreferences.png"></p>
+<p><img alt="Natnetwork setup 2" src="../images/mrRobot-images/virtualBoxNetworks.png"></p>
+<p><img alt="Natnetwork setup 3" src="../images/mrRobot-images/virtualboxCreateNatnetwork.png"></p>
+</li>
+</ol>
+<h2>VM Setup:</h2>
+<ol>
+<li>
+<p>After downloading the vms just double click on them and <a href="https://www.virtualbox.com/wiki/Downloads">VirtualBox</a> should open asking if you want to import the vms.
+     <img alt="Import VM" src="../images/mrRobot-images/importingVM.png"></p>
+<ul>
+<li>Remember to modify the ram setting if you have the resources on your machine. This makes the vm much more responsive.</li>
+</ul>
+</li>
+<li>
+<p>Change the network settings for the vms so that they can communicate with each other. (remember to do this for both the vms)
+     <img alt="VM right click" src="../images/mrRobot-images/showing-right-click.png"></p>
+<p><img alt="VM network settings" src="../images/mrRobot-images/vm-network-settings.png"></p>
+<p><img alt="VM Seting natnetwork" src="../images/mrRobot-images/setting-natnetwork.png"></p>
+</li>
+</ol>
+<h2>Finishing Touches:</h2>
+<ol>
+<li><a href="http://bacalaitopentester.com/pdfs/mrR0b0+.pdf">Go to the tutorial</a> and try to do the challenges. Good luck !</li>
+</ol>
+<blockquote>
+<p>With love Daniel San...</p>
+</blockquote>
+        </div>
     </section>
-
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
