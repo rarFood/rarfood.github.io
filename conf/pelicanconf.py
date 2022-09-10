@@ -32,13 +32,13 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-PLUGIN_PATHS = ['/home/rarfood/repos/pelican-plugins', ]
+PLUGIN_PATHS = ['pelican-plugins', ]
 PLUGINS = ['i18n_subsites', ]
 JINJA_ENVIRONMENT = {
             'extensions': ['jinja2.ext.i18n'],
             }
 
-THEME='../../pelican-themes/pelican-bootstrap3'
+THEME='pelican-themes/pelican-bootstrap3'
 #BOOTSTRAP_THEME='cosmo'
 BOOTSTRAP_NAVBAR_INVERSE=True
 CC_LICENSE = "CC-BY-SA"
